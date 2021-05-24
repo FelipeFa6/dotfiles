@@ -1,0 +1,23 @@
+# FelipeFa's dotfiles
+
+=============
+
+Dependencies:
+
+xwallpaper: wallpaper manager
+xorg-xsetroot: for statusbar
+
+```
+sudo pacman -S xwallpaper xorg-xsetroot
+```
+
+** Remember to set your paths on .xinitrc **
+
+Content:
+
+- Wallpapers
+- Font
+- ranger config   = rc.conf
+- zathura config  = zathurarc
+- statusbar for X = statusBar.sh
+

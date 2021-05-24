@@ -1,6 +1,6 @@
 # Statusbar loop
 while true; do
-   xsetroot -name "$(date +"%F %r" )"
+  path/to/statusBar.script
    sleep 1s
 done &
 
