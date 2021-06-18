@@ -1,8 +1,12 @@
 # Statusbar loop
 while true; do
-  path/to/statusBar.script
-   sleep 1s
+	~/.local/share/statusBar.sh
+	sleep 1m
 done &
 
-xwallpaper --stretch path/to/wallpaper
+# Avoid battery saver screen
+xset -dpms
+xset s off
+
+xwallpaper --stretch ~/.local/share/wallpaper/snowMountains.jpg
 exec dwm

@@ -10,6 +10,16 @@ xorg-xsetroot: for statusbar
 sudo pacman -S xwallpaper xorg-xsetroot
 ```
 
+Font Installation:
+==================
+
+$ mkdir -p /usr/local/share/fonts/ttf/NewFontName
+
+$ cp /font/directory/path /usr/local/share/font/ttf/NewFontName
+
+$ fc-cache
+
+
 ** Remember to set your paths on .xinitrc **
 
 Content:
