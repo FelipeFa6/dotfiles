@@ -1,32 +1,12 @@
 FelipeFa's dotfiles
-=============
 
-Dependencies:
+# Dependencies:
+xwallpaper
+xorg-xsetroot
+xorg-xset
 
-xwallpaper: wallpaper manager
-xorg-xsetroot: for statusbar
+# Font Installation:
+Copy 'fonts' under:
+/usr/local/share/
 
-```
-sudo pacman -S xwallpaper xorg-xsetroot
-```
-
-Font Installation:
-==================
-
-$ mkdir -p /usr/local/share/fonts/ttf/NewFontName
-
-$ cp /font/directory/path /usr/local/share/font/ttf/NewFontName
-
-$ fc-cache
-
-
-** Remember to set your paths on .xinitrc **
-
-Content:
-
-- Wallpapers
-- Font
-- ranger config   = rc.conf
-- zathura config  = zathurarc
-- statusbar for X = statusBar.sh
 

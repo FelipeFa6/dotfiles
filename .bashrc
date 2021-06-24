@@ -1,11 +1,7 @@
-#
-# ~/.bashrc
-#
-
-# Default Apps
-export EDITOR="vim"
-export READER="zathura"
-export VISUAL="vim"
+#Enviromental Variables
+export EDITOR="nvim"
+export VISUAL="nvim"
+export READER="mupdf"
 export TERMINAL="st"
 export BROWSER="surf"
 export IMAGE="feh"
@@ -14,4 +10,4 @@ export OPENER="xdg-open"
 export WM="dwm"
 
 alias ls='ls --color=auto'
-alias v='vim'
+alias vim='nvim'

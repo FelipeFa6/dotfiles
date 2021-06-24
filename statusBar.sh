@@ -2,7 +2,7 @@
 
 # Date
 date=$(date +"%A %B %d %Y ");
-hour=$(date +"%I:%M:%S %p");
+hour=$(date +"%I:%M %p");
 
 # BTC->USD Value
 btc=$(curl rate.sx/1BTC | awk '{printf ("%'\''d\n", $0)}')
