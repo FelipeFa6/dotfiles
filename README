@@ -4,9 +4,3 @@ FelipeFa's dotfiles
 xwallpaper
 xorg-xsetroot
 xorg-xset
-
-# Font Installation:
-Copy 'fonts' under:
-/usr/local/share/
-
-
