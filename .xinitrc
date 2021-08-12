@@ -1,6 +1,6 @@
 # Statusbar loop
 while true; do
-	~/.local/share/statusBar.sh
+	~/.local/bin/statusBar.sh
 	sleep 1m
 done &
 
