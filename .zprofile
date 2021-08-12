@@ -14,5 +14,5 @@ export OPENER="xdg-open"
 export WM="dwm"
 
 # ~/ Cleanup
-export LSSGUSTFILE="-"
+export LESSHISTFILE="-"
 export ZDOTDIR="$HOME/.config/zsh"
