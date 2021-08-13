@@ -1,12 +1,15 @@
 # Statusbar loop
 while true; do
 	~/.local/bin/statusBar.sh
-	sleep 1m
+	sleep 1s
 done &
 
 # Avoid battery saver screen
 xset -dpms
 xset s off
 
-xwallpaper --stretch ~/.local/share/wallpaper/snowMountains.jpg
+xwallpaper --stretch ~/.local/share/wallpaper/bonsai_tree.jpg
+picom &
+
+xrandr --output HDMI-A-0 --primary
 exec dwm

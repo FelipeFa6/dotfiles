@@ -13,6 +13,10 @@ export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export WM="dwm"
 
+export WWW_HOME="https://duckduckgo.com"
+
 # ~/ Cleanup
-export LESSHISTFILE="-"
+export LSSGUSTFILE="-"
 export ZDOTDIR="$HOME/.config/zsh"
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc

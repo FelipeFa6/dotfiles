@@ -8,7 +8,8 @@ RPROMPT=\$vcs_info_msg_0_
  zstyle ':vcs_info:git:*' formats '%b'
 
 autoload -U colors && colors	# Load colors
-PS1="%B %~ % %{$fg[green]%}% $%b "
+PS1="%B%{$fg[green]%}%~ % $%b "
+
 setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
@@ -39,6 +40,7 @@ alias ls='ls --color=auto'
 alias sensors='watch -n 0 sensors'
 alias screenshot='maim -s | xclip -selection clipboard -t image/png'
 alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"';
+alias startx='startx "$XDG_CONFIG_HOME/X11/xinitrc"';
 
 # Bindings
 typeset -g -A key
