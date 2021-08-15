@@ -11,5 +11,4 @@ xset s off
 xwallpaper --stretch ~/.local/share/wallpaper/bonsai_tree.jpg
 picom &
 
-xrandr --output HDMI-A-0 --primary
 exec dwm
