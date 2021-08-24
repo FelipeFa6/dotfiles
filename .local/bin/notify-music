@@ -1,0 +1,6 @@
+#!/bin/sh
+artist=$(playerctl metadata artist)
+album=$(playerctl metadata album)
+song=$(playerctl metadata title)
+
+herbe  "$artist" "---" "Album: $album" "$song"

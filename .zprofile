@@ -20,3 +20,6 @@ export LSSGUSTFILE="-"
 export ZDOTDIR="$HOME/.config/zsh"
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
+export CARGO_HOME="$XDG_CONFIG_HOME"/cargo
+
+PATH=$PATH:$HOME/.local/bin
