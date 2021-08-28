@@ -1,0 +1,7 @@
+#!/bin/sh
+# Use maim to take a screenshot in a screenshots folder
+
+echo "Image name (include extension)"
+
+read varname
+maim -s ~/Photos/screenshots/$varname.png
