@@ -8,7 +8,7 @@ done &
 xset -dpms
 xset s off
 
-xwallpaper --stretch ~/.local/share/wallpaper/fog1.jpg
-picom &
+xwallpaper --stretch ~/.local/share/wallpaper/villageMountains.jpg
+picom --experimental-backends &
 
 exec dwm

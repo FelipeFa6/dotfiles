@@ -4,7 +4,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 
 # Default Programs
-export EDITOR="vim"
+export EDITOR="nvim"
 export READER="zathura"
 export TERMINAL="st"
 export BROWSER="surf"

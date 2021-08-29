@@ -35,12 +35,10 @@ alias gc='git commit'
 alias gp='git pull'
 
 # Extra Shortcuts
-alias chw='xwallpaper --stretch'
 alias ls='ls --color=auto'
-alias sensors='watch -n 0 sensors'
-alias screenshot='maim -s | xclip -selection clipboard -t image/png'
 alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"';
 alias startx='startx "$XDG_CONFIG_HOME/X11/xinitrc"';
+alias vim='nvim';
 
 # Bindings
 typeset -g -A key
