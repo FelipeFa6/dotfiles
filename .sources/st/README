@@ -1,0 +1,28 @@
+st - simple terminal
+FelipeFa's build of st
+----------------------
+
+st is a simple terminal emulator for X which sucks less.
+
+Themes:
+--------
+Default is Nord theme.
+Press F6 for gruvbox.
+
+
+Bindings:
+---------
+- scrollback with `Shift-pageup/down` or `Shift-mouseScroll`.
+
+- zoom font size: 'CTRL-Shift-J/K' and 'CTRL-Shift-E/Y' for x2 size
+  `TERMMOD-R` returns to default
+
+- font cycle: `CTRL-Shift-s`
+
+- term color cycle: Alternate between default and Gruvbox with `f6`
+
+Patches:
+----------
+- AnySize
+- CycleFont
+- Scrollback
